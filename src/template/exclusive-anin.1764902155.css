@@ -71,13 +71,13 @@ body.anin.original {
   --button-background-secondary-rgb: 126, 57, 66;
 
   /* ornament */
-  --texture-1: url("../../../katsudoto.id/media/template/exclusive/anin/original/bg-texture-1.png");
-  --texture-2: url("../../../katsudoto.id/media/template/exclusive/anin/original/bg-texture-2.png");
-  --bg-cover: url("../../../katsudoto.id/media/template/exclusive/anin/original/bg-cover.png");
-  --cover-frame-mask: url("../../../katsudoto.id/media/template/exclusive/anin/original/mask-cover.png");
+  --texture-1: url("../../asset/img/bg-texture-1.png");
+  --texture-2: url("../../asset/img/bg-texture-2.png");
+  --bg-cover: url("../../asset/img/bg-cover.png");
+  --cover-frame-mask: url("../../asset/img/mask-cover.png");
   /* --ls-frame-mask: url("https://katsudoto.id/media/template/exclusive/anin/original/mask-ls.png"); */
-  --photo-frame-mask: url("../../../katsudoto.id/media/template/exclusive/anin/original/mask-photo.png");
-  --clip-mask: url("../../../katsudoto.id/media/template/exclusive/anin/original/mask-clip.png");
+  --photo-frame-mask: url("../../asset/img/mask-photo.png");
+  --clip-mask: url("../../asset/img/mask-clip.png");
 }
 
 @media only screen and (max-width: 960px) {
