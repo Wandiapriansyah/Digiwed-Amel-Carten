@@ -1994,14 +1994,14 @@ section.love-story .story-inner {
   fill: var(--text-primary);
 }
 .activity-head .activity-title {
-  font-size: calc(var(--body-text-size) + var(--fs-extra-2));
+  font-size: 48px;
   /* color: var(--text-secondary); */
 }
 .activity-head .activity-description {
   font-size: calc(var(--body-text-size));
 }
 .activity-head .activity-time {
-  font-size: calc(var(--body-text-size));
+  font-size: 28px;
   font-weight: 700;
   line-height: 150%;
   color: var(--text-primary);
@@ -2018,21 +2018,21 @@ section.love-story .story-inner {
 }
 .event-details .event-hall,
 .activity-details .activity-hall {
-  font-size: calc(var(--body-text-size));
+  font-size: 28px;
   color: var(--text-primary);
   font-weight: 700;
   line-height: 150%;
 }
 .event-details .event-address,
 .activity-details .activity-address {
-  font-size: calc(var(--body-text-size));
+  font-size: 18px;
   color: var(--text-tertiary);
   font-weight: 500;
   line-height: 150%;
 }
 .event-details .event-city,
 .activity-details .activity-city {
-  font-size: calc(var(--body-text-size));
+  font-size: 18px;
   color: var(--text-tertiary);
   font-weight: 500;
   line-height: 150%;
