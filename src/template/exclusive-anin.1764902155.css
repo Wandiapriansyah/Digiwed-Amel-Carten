@@ -1991,7 +1991,7 @@ section.love-story .story-inner {
   margin: 0px auto 12px;
 }
 .activity-head svg.activity-icon path {
-  fill: var(--text-secondary);
+  fill: var(--text-primary);
 }
 .activity-head .activity-title {
   font-size: calc(var(--body-text-size) + var(--fs-extra-2));
