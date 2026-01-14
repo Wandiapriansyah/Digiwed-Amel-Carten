@@ -1217,10 +1217,10 @@ section.love-story .story-inner {
   transition-duration: 0.2s;
   transition-property: width, background;
 
-  border: #607e81 solid 1px;
+  border: #7E3942 solid 1px;
 }
 .story__slider-dots > ul > li.slick-active > button {
-  background: var(--button-background-primary);
+  background: var(--button-background-secondary);
 }
 
 /* story preview */
@@ -1257,7 +1257,7 @@ section.love-story .story-inner {
 .story-preview .story-sub-title {
   font-family: var(--body-text-family);
   font-size: var(--body-text-size);
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-weight: 700;
   line-height: normal;
   text-align: center;
@@ -1679,7 +1679,7 @@ section.love-story .story-inner {
 }
 .save-date-wrap .save-date-title {
   font-family: var(--heading-family);
-  color: var(--text-secondary);
+  /* color: var(--text-secondary); */
   text-align: center;
   font-size: calc(var(--heading-size));
 
@@ -1714,7 +1714,7 @@ section.love-story .story-inner {
 .count-item .count-num {
   font-family: var(--heading-family);
   font-size: calc(var(--heading-size));
-  color: var(--text-secondary);
+  /* color: var(--text-secondary); */
   font-style: normal;
 }
 .count-item .count-text {
@@ -1743,13 +1743,13 @@ section.love-story .story-inner {
   font-family: var(--body-text-family);
   font-size: calc(var(--body-text-size) + 0px);
   font-weight: 500;
-  background-color: var(--button-background-primary);
+  background-color: rgba(var(--button-background-secondary-rgb), 1);
   border: none;
   color: var(--button-text-primary);
   transition: all 0.25s ease-in-out;
 }
 .add-to-calendar:hover {
-  background-color: rgba(var(--button-background-secondary-rgb), 1);
+  background-color: var(--button-background-primary);
 }
 
 @media (min-width: 700px) and (max-width: 961px) {
@@ -1995,7 +1995,7 @@ section.love-story .story-inner {
 }
 .activity-head .activity-title {
   font-size: calc(var(--body-text-size) + var(--fs-extra-2));
-  color: var(--text-secondary);
+  /* color: var(--text-secondary); */
 }
 .activity-head .activity-description {
   font-size: calc(var(--body-text-size));
@@ -2004,7 +2004,7 @@ section.love-story .story-inner {
   font-size: calc(var(--body-text-size));
   font-weight: 700;
   line-height: 150%;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 /* Agenda Details */
@@ -2019,7 +2019,7 @@ section.love-story .story-inner {
 .event-details .event-hall,
 .activity-details .activity-hall {
   font-size: calc(var(--body-text-size));
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-weight: 700;
   line-height: 150%;
 }
@@ -2049,9 +2049,9 @@ section.love-story .story-inner {
   text-decoration: none;
   padding: 6px 0px;
 
-  border-bottom: 1px solid var(--button-background-primary);
+  border-bottom: 1px solid var(--button-background-secondary);
 
-  color: var(--text-secondary);
+  color: var(--text-primary);
 
   font-family: var(--body-text-family);
   font-weight: 500;
@@ -3045,7 +3045,7 @@ section.live-streaming .inner .head p {
 .wedding-gift-select-bank-wrap
   .selectize-control.form-control
   .selectize-input {
-  background: var(--button-background-primary);
+  background: var(--button-background-secondary);
   padding: 12px;
   border-radius: 999px;
   /* display: none; */
@@ -3244,7 +3244,7 @@ section.live-streaming .inner .head p {
   font-weight: var(--body-text-weight);
   line-height: normal;
   color: var(--button-text-primary);
-  background-color: var(--button-background-primary);
+  background-color: rgba(var(--button-background-secondary-rgb), 1);
   border: none;
   padding: 12px 25px;
   border-radius: 999px;
@@ -3254,7 +3254,7 @@ section.live-streaming .inner .head p {
   margin: 0 auto;
 }
 .wedding-gift-page:hover {
-  background-color: rgba(var(--button-background-secondary-rgb), 1);
+  background-color: var(--button-background-primary);
 }
 
 /* Wedding Gift Back Page */
@@ -4014,7 +4014,7 @@ section.protocol-04 .protocol-item-wrap .protocol-item .text-wrap .text {
   padding-bottom: 24px;
 }
 .wedding-wish-head .wedding-wish-title {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   text-align: center;
   font-family: var(--heading-family);
   font-size: 40px;
